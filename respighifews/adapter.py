@@ -32,7 +32,7 @@ env['VIRTUAL_ENV'] = str(python_env)
 import click
 import datetime
 import dask
-from fews_utilities import xml_to_dict
+from utilities import xml_to_dict
 import imod
 import logging
 from lxml import etree as ET

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grids xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/grids.xsd">
+	<regular locationId="RESPIGHI_GRID_05M">
+		<rows>6100</rows>
+		<columns>12300</columns>
+		<geoDatum>Rijks Driehoekstelsel</geoDatum>
+		<firstCellCenter>
+			<x>109002.5</x>
+			<y>468497.5</y>
+		</firstCellCenter>
+		<xCellSize>5</xCellSize>
+		<yCellSize>5</yCellSize>
+	</regular>
+	<regular locationId="RESPIGHI_GRID_25M">
+		<rows>1220</rows>
+		<columns>2460</columns>
+		<geoDatum>Rijks Driehoekstelsel</geoDatum>
+		<firstCellCenter>
+			<x>109012.5</x>
+			<y>468487.5</y>
+		</firstCellCenter>
+		<xCellSize>25</xCellSize>
+		<yCellSize>25</yCellSize>
+	</regular>
+</grids>

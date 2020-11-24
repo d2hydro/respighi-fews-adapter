@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<explorer version="1.1" xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews ../../Schemas/explorer.xsd">
+	<systemInformation>
+		<systemCaption>$EXPLORER_SYSTEMCAPTION$</systemCaption>
+		<systemHelpUrl>https://publicwiki.deltares.nl/display/FEWSDOC/Using+Delft-FEWS+-+User+Guide</systemHelpUrl>
+	</systemInformation>
+	<timeSeriesStatus>current status</timeSeriesStatus>
+	<parameterListConfig>
+		<sortOption>default</sortOption>
+	</parameterListConfig>
+	<globalDatum>NAP</globalDatum>
+	<map>
+		<geoDatum>Rijks Driehoekstelsel</geoDatum>
+		<projection>mercator</projection>
+		<defaultExtent id="HDSR" name="De Stichtse Rijnlanden">
+			<left>109000</left>
+			<right>170000</right>
+			<top>469000</top>
+			<bottom>424000</bottom>
+		</defaultExtent>
+		<extraExtent id="IJSSEL" name="IJssel">
+			<left>112700</left>
+			<right>134700</right>
+			<top>453000</top>
+			<bottom>424000</bottom>
+		</extraExtent>
+		<extraExtent id="KROMMERIJN" name="Kromme Rijn">
+			<left>135400</left>
+			<right>171000</right>
+			<top>462900</top>
+			<bottom>440000</bottom>
+		</extraExtent>
+		<extraExtent id="LEIDSCHERIJN" name="Leidsche Rijn">
+			<left>123800</left>
+			<right>144200</right>
+			<top>469000</top>
+			<bottom>445500</bottom>
+		</extraExtent>
+		<extraExtent id="OUDERIJN" name="Oude Rijn">
+			<left>104000</left>
+			<right>127300</right>
+			<top>465000</top>
+			<bottom>446500</bottom>
+		</extraExtent>
+		<extraExtent id="OOST" name="Oost">
+			<left>132000</left>
+			<right>170000</right>
+			<top>469000</top>
+			<bottom>424000</bottom>
+		</extraExtent>
+		<extraExtent id="WEST" name="West">
+			<left>109000</left>
+			<right>136000</right>
+			<top>469000</top>
+			<bottom>424000</bottom>
+		</extraExtent>
+		<extraExtent id="AMERONGSE_BOVENPOLDER" name="Amerongse Bovenpolder">
+			<left>156000</left>
+			<right>163000</right>
+			<top>449000</top>
+			<bottom>443000</bottom>
+		</extraExtent>
+		<extraExtent id="ZEGVELD" name="Zegveld">
+			<left>114000</left>
+			<right>122000</right>
+			<top>464000</top>
+			<bottom>457000</bottom>
+		</extraExtent>
+		<extraExtent id="SPENGEN" name="Spengen">
+			<left>122400</left>
+			<right>126000</right>
+			<top>464500</top>
+			<bottom>458700</bottom>
+		</extraExtent>
+		<extraExtent id="HOLLANDSE_IJSSEL" name="Hollandse IJssel">
+			<left>113000</left>
+			<right>132000</right>
+			<top>446000</top>
+			<bottom>454000</bottom>
+		</extraExtent>
+		<extraExtent id="LEKDIJK" name="Lekdijk">
+			<left>118000</left>
+			<right>162000</right>
+			<top>438000</top>
+			<bottom>438000</bottom>
+		</extraExtent>
+		<extraExtent id="JAARSVELD" name="Jaarsveld">
+			<left>126800</left>
+			<right>127000</right>
+			<top>442500</top>
+			<bottom>442300</bottom>
+		</extraExtent>
+		<extraExtent id="UTRECHTSE_HEUVELRUG" name="Utrechtse Heuvelrug">
+			<left>151500</left>
+			<right>156000</right>
+			<top>446000</top>
+			<bottom>449000</bottom>
+		</extraExtent>
+		<extraExtent id="TTULL_EN_TWAAL" name="'t Tull en 't Waal">
+			<left>137500</left>
+			<right>140700</right>
+			<top>444800</top>
+			<bottom>447500</bottom>
+		</extraExtent>
+		<extraExtent id="BROEK_EN BLOKLAND" name="Broek en Blokland">
+			<left>126000</left>
+			<right>128800</right>
+			<top>447500</top>
+			<bottom>450000</bottom>
+		</extraExtent>
+		<extraExtent id="HOGE_GRIENDEN" name="Hoge Grienden">
+			<left>129000</left>
+			<right>131000</right>
+			<top>444700</top>
+			<bottom>447000</bottom>
+		</extraExtent>
+		<extraExtent id="OVERLANGBROEK" name="Overlangbroek">
+			<left>154000</left>
+			<right>156100</right>
+			<top>444400</top>
+			<bottom>446200</bottom>
+		</extraExtent>
+		<extraExtent id="SANDENBURG" name="Sandenberg">
+			<left>150250</left>
+			<right>152500</right>
+			<top>445000</top>
+			<bottom>447100</bottom>
+		</extraExtent>
+		<extraExtent id="MSW" name="MSW stations">
+			<left>96000</left>
+			<right>210000</right>
+			<top>463000</top>
+			<bottom>432000</bottom>
+		</extraExtent>
+		<extraExtent id="DEHAAK" name="De Haak">
+			<left>117300</left>
+			<right>118200</right>
+			<top>463000</top>
+			<bottom>461700</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON1" name="RAYON 1">
+			<left>121910.623</left>
+			<right>134443.596</right>
+			<top>447870.108</top>
+			<bottom>441324.875</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON2" name="RAYON 2">
+			<left>120155.259</left>
+			<right>132846.514</right>
+			<top>452144.029</top>
+			<bottom>445368.739</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON3" name="RAYON 3">
+			<left>109980.211</left>
+			<right>124376.004</right>
+			<top>448492.818</top>
+			<bottom>438936.875</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON4" name="RAYON 4">
+			<left>109952.188</left>
+			<right>120180.890</right>
+			<top>463095.250</top>
+			<bottom>453762.124</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON5" name="RAYON 5">
+			<left>113208.625</left>
+			<right>121259.063</right>
+			<top>455477.455</top>
+			<bottom>447437.223</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON6" name="RAYON 6">
+			<left>119366.966</left>
+			<right>125480.457</right>
+			<top>457534.011</top>
+			<bottom>447774.403</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON7" name="RAYON 7">
+			<left>118751.106</left>
+			<right>127110.573</right>
+			<top>464425.906</top>
+			<bottom>454828.302</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON8" name="RAYON 8">
+			<left>146203.279</left>
+			<right>169422.672</right>
+			<top>447932.250</top>
+			<bottom>440187.219</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON9" name="RAYON 9">
+			<left>139119.486</left>
+			<right>152331.203</right>
+			<top>462574.115</top>
+			<bottom>451776.975</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON10" name="RAYON 10">
+			<left>135524.022</left>
+			<right>151769.715</right>
+			<top>449927.739</top>
+			<bottom>440719.063</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON11" name="RAYON 11">
+			<left>135704.730</left>
+			<right>147675.904</right>
+			<top>454694.102</top>
+			<bottom>444062.188</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON12" name="RAYON 12">
+			<left>144675.807</left>
+			<right>158652.834</right>
+			<top>453074.921</top>
+			<bottom>443856.559</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON13" name="RAYON 13">
+			<left>132184.249</left>
+			<right>143935.453</right>
+			<top>467591.156</top>
+			<bottom>453332.141</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON14" name="RAYON 14">
+			<left>124428.086</left>
+			<right>133976.963</right>
+			<top>464848.281</top>
+			<bottom>454889.280</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON15" name="RAYON 15">
+			<left>128782.033</left>
+			<right>136846.252</right>
+			<top>462186.883</top>
+			<bottom>451230.600</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON16" name="RAYON 16">
+			<left>123907.925</left>
+			<right>135303.805</right>
+			<top>456082.087</top>
+			<bottom>447805.377</bottom>
+		</extraExtent>
+		<extraExtent id="BEG_RAYON17" name="RAYON 17">
+			<left>132756.185</left>
+			<right>138604.607</right>
+			<top>454526.813</top>
+			<bottom>445843.467</bottom>
+		</extraExtent>
+		<scaleBarVisible>true</scaleBarVisible>
+		<northArrowVisible>true</northArrowVisible>
+		<labelsVisible>true</labelsVisible>
+		<backgroundColor>pale turquoise</backgroundColor>
+		<openStreetMapLayer id="Osm" name="OpenStreetMap">
+			<url>http://tile.openstreetmap.org</url>
+			<visible>false</visible>
+			<cacheDir>$KAARTEN_DIR$/OsmTiles</cacheDir>
+		</openStreetMapLayer>
+		<wmsLayer id="Luchtfoto PDOK">
+			<url>https://geodata.nationaalgeoregister.nl/luchtfoto/rgb/wms?</url>
+			<wmsLayerName>Actueel_ortho25</wmsLayerName>
+			<visible>false</visible>
+			<cacheDir>$KAARTEN_DIR$/Luchtfoto_PDOK</cacheDir>
+		</wmsLayer>
+		<layer id="Topografie" name="ArcGIS World Topo Map">
+			<className>nl.wldelft.libx.openmap.GenericTileServerLayer</className>
+			<visible>false</visible>
+			<properties>
+				<string key="tileUrlPattern" value="http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/%ZOOM%/%ROW%/%COLUMN%"/>
+				<string key="cacheDir" value="$KAARTEN_DIR$/Esri_topo"/>
+				<int key="minZoomLevel" value="1"/>
+				<int key="maxZoomLevel" value="19"/>
+				<int key="topZoomLevel" value="21"/>
+				<int key="tileSize" value="256"/>
+			</properties>
+		</layer>
+	</map>
+	<explorerTasks>
+		<explorerTask name="Kaarten">
+			<mnemonic>P</mnemonic>
+			<arguments>GridDisplay</arguments>
+			<taskClass>nl.wldelft.fews.gui.plugin.grid.GridDisplay</taskClass>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<allowMultipleInstances>false</allowMultipleInstances>
+			<accelerator>ctrl P</accelerator>
+		</explorerTask>
+		<explorerTask name="Grafieken">
+			<mnemonic>G</mnemonic>
+			<predefinedDisplay>time series dialog</predefinedDisplay>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<allowMultipleInstances>true</allowMultipleInstances>
+			<accelerator>ctrl G</accelerator>
+			<loadAtStartup>true</loadAtStartup>
+		</explorerTask>
+		<explorerTask name="Taken-menu">
+			<mnemonic>M</mnemonic>
+			<taskClass>nl.wldelft.fews.gui.plugin.manualforecast.ManualForecastDialog</taskClass>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<allowMultipleInstances>false</allowMultipleInstances>
+			<accelerator>ctrl M</accelerator>
+			<loadAtStartup>true</loadAtStartup>
+		</explorerTask>
+		<explorerTask name="Systeemmonitor">
+			<mnemonic>S</mnemonic>
+			<taskClass>nl.wldelft.fews.gui.plugin.systemmonitor.SystemMonitorDialog</taskClass>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<allowMultipleInstances>false</allowMultipleInstances>
+			<accelerator>ctrl S</accelerator>
+		</explorerTask>
+		<explorerTask name="Tijdreeks-informatie">
+			<mnemonic>T</mnemonic>
+			<predefinedDisplay>time series lister</predefinedDisplay>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<allowMultipleInstances>false</allowMultipleInstances>
+			<accelerator>ctrl T</accelerator>
+		</explorerTask>
+		<explorerTask name="Interval Statistiek">
+			<mnemonic>V</mnemonic>
+			<predefinedDisplay>interval statistics</predefinedDisplay>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<accelerator>ctrl V</accelerator>
+			<loadAtStartup>false</loadAtStartup>
+		</explorerTask>
+		<explorerTask name="Beheer verwachtingen">
+			<mnemonic>B</mnemonic>
+			<predefinedDisplay>forecast management</predefinedDisplay>
+			<toolbarTask>false</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<allowMultipleInstances>false</allowMultipleInstances>
+			<accelerator>ctrl B</accelerator>
+			<loadAtStartup>false</loadAtStartup>
+		</explorerTask>
+		<explorerTask name="Locatie-tabellen">
+			<mnemonic>L</mnemonic>
+			<predefinedDisplay>tabular config files display</predefinedDisplay>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>false</menubarTask>
+			<accelerator>ctrl L</accelerator>
+		</explorerTask>
+	</explorerTasks>
+	<documentViewer>
+		<hostCredentials>
+			<hostName>ftp2.mobielwatermeten.nl</hostName>
+			<user>hdsrphotolink</user>
+			<encryptedPassword>zn+TfX10pLsGLAwdPQdc69OsWwKuSdhe</encryptedPassword>
+		</hostCredentials>
+	</documentViewer>
+	<statusBarConfig>
+		<dateTimeFormat>HH:mm:ss</dateTimeFormat>
+		<timeGMT>false</timeGMT>
+		<timeCurrent>true</timeCurrent>
+		<timeLastRefresh>false</timeLastRefresh>
+		<statusOfSystem>true</statusOfSystem>
+		<mouseCoordinates>true</mouseCoordinates>
+		<userName>true</userName>
+	</statusBarConfig>
+	<dateTime>
+		<timeZoneName>CET</timeZoneName>
+		<dateTimeFormat>dd-MM-yyyy kk:mm:ss</dateTimeFormat>
+		<cardinalTimeStep unit="hour"/>
+		<adjustSystemTimeAutomatically>true</adjustSystemTimeAutomatically>
+	</dateTime>
+	<logPanelConfig>
+		<clientFilter>
+			<clientId>Stand alone</clientId>
+			<logFilter>
+				<level>DEBUG</level>
+				<eventType>system</eventType>
+			</logFilter>
+			<logFilter>
+				<level>DEBUG</level>
+				<eventType>debug</eventType>
+			</logFilter>
+		</clientFilter>
+		<clientFilter>
+			<clientId>Operator Client</clientId>
+			<logFilter>
+				<level>INFO</level>
+				<eventType>system</eventType>
+			</logFilter>
+			<logFilter>
+				<level>INFO</level>
+				<eventType>debug</eventType>
+			</logFilter>
+		</clientFilter>
+	</logPanelConfig>
+	<panelSizes>
+		<loggingPanelSize>5</loggingPanelSize>
+		<listsPanelSize>0</listsPanelSize>
+		<filterListSize>30</filterListSize>
+		<locationListSize>30</locationListSize>
+		<parameterListSize>25</parameterListSize>
+		<qualifierListSize>10</qualifierListSize>
+		<forecastListSize>0</forecastListSize>
+	</panelSizes>
+	<fileMenu>
+		<exportTimeSeries visible="true"/>
+	</fileMenu>
+	<rollingBarrelOptions>
+		<type>interval</type>
+		<interval unit="hour"/>
+	</rollingBarrelOptions>
+	<mapPanelName>Meetpunten</mapPanelName>
+	<panelHeaderLabels>
+		<filterPanelHeader>Selecteer een of meerdere filters</filterPanelHeader>
+		<locationPanelHeader>Selecteer een of meerdere locaties</locationPanelHeader>
+		<parameterPanelHeader>Selecteer een of meerdere parameters</parameterPanelHeader>
+	</panelHeaderLabels>
+	<numberOfTimeSeriesBlobsForWarning>1800000</numberOfTimeSeriesBlobsForWarning>
+</explorer>

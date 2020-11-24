@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Repository path:    -->
+<!--Last committed:     -->
+<workflow xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews ../../../Schemas/workflow.xsd" version="1.1">
+	<activity logStartedAsDebug="true" logFinishedAsDebug="true">
+		<properties>
+			<string key="MODULEINSTANCE_INPUT" value="HYDROMEDAH_update_Vidente"/>
+			<string key="MODULEINSTANCE_OUTPUT" value="RESPIGHI"/>
+			<string key="RESPIGHI_GRID" value="RESPIGHI_GRID_25M"/>
+			<string key="ADAPTER_INI" value="fews_adapter_25m.ini"/>
+		</properties>	
+		<moduleInstanceId>RESPIGHI</moduleInstanceId>
+		<moduleConfigFileName>RESPIGHI_from_state</moduleConfigFileName>
+	</activity>
+</workflow>

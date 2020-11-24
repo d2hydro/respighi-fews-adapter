@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflowDescriptors xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/workflowDescriptors.xsd" version="1.0">
+	<workflowDescriptor id="wf_RESPIGHI" name="Downscaling HYDROMEDAH (RESPIGHI)" forecast="true" visible="true" autoApprove="true">
+		<description>Met deze taak wordt de HYDROMEDAH grondwaterstand verfijnd met RESPIGHI</description>
+		<schedulingAllowed>true</schedulingAllowed>
+	</workflowDescriptor>
+</workflowDescriptors>

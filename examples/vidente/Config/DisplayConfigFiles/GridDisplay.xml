@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gridDisplay xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/gridDisplay.xsd">
+	<title>Kaarten - Waterkwantiteit Informatie Systeem HDSR</title>
+	<defaults>
+		<geoMap>
+			<geoDatum>Rijks Driehoekstelsel</geoDatum>
+			<projection>mercator</projection>
+			<defaultExtent id="HDSR" name="De Stichtse Rijnlanden">
+				<left>109000</left>
+				<right>170000</right>
+				<top>469000</top>
+				<bottom>424000</bottom>
+			</defaultExtent>
+			<extraExtent id="NEERSLGDB" name="Neerslagdatabase">
+				<left>60000</left>
+				<right>230000</right>
+				<top>559000</top>
+				<bottom>384000</bottom>
+			</extraExtent>
+			<extraExtent id="GXG" name="GXG-kaarten">
+				<left>104000</left>
+				<right>174000</right>
+				<top>473000</top>
+				<bottom>433000</bottom>
+			</extraExtent>
+			<extraExtent id="AHN" name="AHN-kaarten">
+				<left>104000</left>
+				<right>174000</right>
+				<top>473000</top>
+				<bottom>433000</bottom>
+			</extraExtent>
+			<extraExtent id="IJSSEL" name="IJssel">
+				<left>109800</left>
+				<right>134700</right>
+				<top>452400</top>
+				<bottom>424000</bottom>
+			</extraExtent>
+			<extraExtent id="KROMMERIJN" name="Kromme Rijn">
+				<left>135400</left>
+				<right>171000</right>
+				<top>462900</top>
+				<bottom>440000</bottom>
+			</extraExtent>
+			<extraExtent id="LEIDSCHERIJN" name="Leidsche Rijn">
+				<left>123800</left>
+				<right>144200</right>
+				<top>469000</top>
+				<bottom>445500</bottom>
+			</extraExtent>
+			<extraExtent id="OUDERIJN" name="Oude Rijn">
+				<left>104000</left>
+				<right>127300</right>
+				<top>464600</top>
+				<bottom>447300</bottom>
+			</extraExtent>
+			<scaleBarVisible>true</scaleBarVisible>
+			<northArrowVisible>true</northArrowVisible>
+			<labelsVisible>true</labelsVisible>
+			<openStreetMapLayer id="Osm" name="OpenStreetMap">
+				<url>http://tile.openstreetmap.org</url>
+				<visible>false</visible>
+				<cacheDir>$KAARTEN_DIR$/OsmTiles</cacheDir>
+			</openStreetMapLayer>
+			<wmsLayer id="Luchtfoto PDOK">
+				<url>https://geodata.nationaalgeoregister.nl/luchtfoto/rgb/wms?</url>
+				<wmsLayerName>Actueel_ortho25</wmsLayerName>
+				<visible>false</visible>
+				<cacheDir>$KAARTEN_DIR$/Luchtfoto_PDOK</cacheDir>
+			</wmsLayer>
+			<layer id="Topografie" name="ArcGIS World Topo Map">
+				<className>nl.wldelft.libx.openmap.GenericTileServerLayer</className>
+				<visible>false</visible>
+				<properties>
+					<string key="tileUrlPattern" value="http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/%ZOOM%/%ROW%/%COLUMN%"/>
+					<string key="cacheDir" value="$KAARTEN_DIR$/Esri_topo"/>
+					<int key="minZoomLevel" value="1"/>
+					<int key="maxZoomLevel" value="19"/>
+					<int key="topZoomLevel" value="21"/>
+					<int key="tileSize" value="256"/>
+				</properties>
+			</layer>
+		</geoMap>
+	</defaults>
+	<gridPlotGroup id="HYDROMEDAH update run" name="HYDROMEDAH update run">
+		<gridPlot id="RESPIGHI Grondwaterstand [cm tov mv]">
+			<timeSeriesSet>
+				<moduleInstanceId>RESPIGHI</moduleInstanceId>
+				<valueType>grid</valueType>
+				<parameterId>gws.cm.mv.N</parameterId>
+				<locationId>RESPIGHI_GRID_25M</locationId>
+				<timeSeriesType>simulated historical</timeSeriesType>
+				<timeStep unit="nonequidistant" timeZone="GMT+1"/>
+				<relativeViewPeriod unit="day" start="-10" end="0"/>
+				<readWriteMode>read complete forecast</readWriteMode>
+			</timeSeriesSet>
+	<classBreaks>
+			<break color="004DA8" lowerValue="-20000" label="0 cm >" opaquenessPercentage="80"/>
+			<break color="267300" lowerValue="0" label="0-20 cm" opaquenessPercentage="80"/>
+			<break color="38A800" lowerValue="20" label="20-40 cm" opaquenessPercentage="80"/>
+			<break color="4CE600" lowerValue="40" label="40-60 cm" opaquenessPercentage="80"/>
+			<break color="55FF00" lowerValue="60" label="60-80 cm" opaquenessPercentage="80"/>
+			<break color="A3FF73" lowerValue="80" label="80-100 cm" opaquenessPercentage="80"/>
+			<break color="D1FF73" lowerValue="100" label="100-120 cm" opaquenessPercentage="80"/>
+			<break color="FFFFBE" lowerValue="120" label="120-140 cm" opaquenessPercentage="80"/>
+			<break color="FEFF73" lowerValue="140" label="140-160 cm" opaquenessPercentage="80"/>
+			<break color="FEFF00" lowerValue="160" label="160-180 cm" opaquenessPercentage="80"/>
+			<break color="FEDD33" lowerValue="180" label="180-200 cm" opaquenessPercentage="80"/>
+			<break color="FEC414" lowerValue="200" label="200-220 cm" opaquenessPercentage="80"/>
+			<break color="FEBF0A" lowerValue="220" label="220-240 cm" opaquenessPercentage="80"/>
+			<break color="FEAA00" lowerValue="240" label="240-260 cm" opaquenessPercentage="80"/>
+			<break color="FE8C00" lowerValue="260" label="260-280 cm" opaquenessPercentage="80"/>
+			<break color="FE7300" lowerValue="280" label="280-300 cm" opaquenessPercentage="80"/>
+			<break color="FF5500" lowerValue="300" label="300-320 cm" opaquenessPercentage="80"/>
+			<break color="FF2A00" lowerValue="320" label="320-340 cm" opaquenessPercentage="80"/>
+			<break color="ED0000" lowerValue="340" label="340-360 cm" opaquenessPercentage="80"/>
+			<break color="D90000" lowerValue="360" label="360-380 cm" opaquenessPercentage="80"/>
+			<break color="BF0000" lowerValue="380" label="380-400 cm" opaquenessPercentage="80"/>
+			<break color="A60000" lowerValue="400" label="400-600 cm" opaquenessPercentage="80"/>
+			<break color="730000" lowerValue="600" label="600-1000 cm" opaquenessPercentage="80"/>
+			<break color="4B0000" lowerValue="1000" label=">1000 cm" opaquenessPercentage="80"/>
+		</classBreaks>
+		</gridPlot>
+	</gridPlotGroup>
+</gridDisplay>

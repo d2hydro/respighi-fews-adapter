@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters version="1.0" xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/parameters.xsd">
+	<parameterGroups>
+		<parameterGroup id="Hydromedah grondwaterstand [cm]">
+			<parameterType>instantaneous</parameterType>
+			<unit>cm</unit>
+			<valueResolution>0.001</valueResolution>
+			<usesDatum>false</usesDatum>
+			<parameter id="gws.cm.mv.d" name="Grondwaterstand [cm onder mv] - dag">
+				<shortName>Grondwaterstand [cm onder mv] - dag</shortName>
+			</parameter>
+			<parameter id="gws.cm.mv.N" name="Grondwaterstand [cm onder mv] - noneq">
+				<shortName>Grondwaterstand [cm onder mv] - noneq</shortName>
+			</parameter>
+		</parameterGroup>
+	</parameterGroups>
+</parameters>
