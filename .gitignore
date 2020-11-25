@@ -11,3 +11,5 @@ examples/vidente/user_settings.ini
 build/*
 respighifews.egg-info/*
 respighifews/__pycache__/*
+examples/vidente/DumpFiles/*
+examples/vidente/modules/respighi/*

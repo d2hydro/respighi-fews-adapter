@@ -32,7 +32,6 @@ env['VIRTUAL_ENV'] = str(python_env)
 import click
 import datetime
 import dask
-from utilities import xml_to_dict
 import imod
 import logging
 from lxml import etree as ET
@@ -43,6 +42,11 @@ import traceback
 from schema import And, Optional, Use
 import warnings
 import xarray as xr
+
+try:
+    from utilities import xml_to_dict
+except:
+    from respighifews.utilities import xml_to_dict
 
 warnings.filterwarnings('ignore')
 
