@@ -18,31 +18,43 @@ During installation, tick the box "Add Anaconda to PATH", ignore the red remarks
 ### Create a RESPIGHI environment
 Use the environment.yml in the repository to create the proper python environment for RESPIGHI in command prompt
 
-*conda env create -f environment.yml*
+```
+conda env create -f environment.yml
+```
 
 After installation you can activate your environment in command prompt
 
-*conda activate respighi*
+```
+conda activate respighi
+```
 
 ### Install RESPIGHI
 In the activated environment you will clone the RESPIGHI repository and install it in the environment by executing the following three commands in command prompt:
 
-*git clone https://gitlab.com/deltares/imod/respighi.git*<br>
-*cd respighi*<br>
-*pip install .*
+```
+git clone https://gitlab.com/deltares/imod/respighi.git
+cd respighi
+pip install .
+```
 
 If you open python in your RESPIGHI environment you will be able to import RESPIGHI:
 
-*import respighi*
+```python
+import respighi
+```
 
 ### Install the RESPIGHI fews-adapter
 It is recommended to install the RESPIGHI fews-adapter in your RESPIGHI invironment as well. In the command prompt with activated environment you can install it by:
 
-*pip install .*
+```
+pip install .
+```
 
 If you open python in your RESPIGHI environment you will be able to import RESPIGHI-fews now:
 
-*import respighifews*
+```python
+import respighifews
+```
 
 If preferred the adapter-script can be included in the FEWS moduleDataSet or any other location as long as you include both adapter.py and untilities.py in the same folder.
 
@@ -53,7 +65,9 @@ You can test RESPIGHIfews with the example fews-config in examples\vidente
 3. Put the FEWS-patch in examples\vidente\patch.jar
 4. Update the path to your newly created RESPIGHI python environment in sa_global.properties. Assuming you have an anaconda installation on the C-drive that would be:
 
-*PYTHON_ENV = c:/Anaconda3/envs/respighi*
+```
+PYTHON_ENV = c:/Anaconda3/envs/respighi
+```
 
 5. Start FEWS. If all is good you will be able to run the workflow *Downscaling HYDROMEDAH (RESPIGHI)*. That should take +/- 15 mins to complete
 6. You will find your results in the gridDisplay at *RESPIGHI Grondwaterstand [cm tov mv]*
