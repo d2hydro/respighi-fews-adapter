@@ -7,3 +7,7 @@ examples/vidente/patch.jar
 examples/vidente/running
 examples/vidente/temp/*
 examples/vidente/user_settings.ini
+*.egg
+build/*
+respighifews.egg-info/*
+respighifews/__pycache__/*

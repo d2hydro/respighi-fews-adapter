@@ -2,7 +2,7 @@
 
 __title__ = 'fews_utilities'
 __description__ = 'to read a Deltares-FEWS config-files into Python'
-__version__ = '0.1'
+__version__ = '0.1.0'
 __author__ = 'Daniel Tollenaar'
 __author_email__ = 'daniel@d2hydro.nl'
 __license__ =  'MIT License'
