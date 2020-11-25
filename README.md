@@ -33,7 +33,7 @@ In the activated environment you will clone the RESPIGHI repository and install 
 
 If you open python in your RESPIGHI environment you will be able to import RESPIGHI:
 
-*import RESPIGHI
+*import respighi*
 
 ### Install the RESPIGHI fews-adapter
 It is recommended to install the RESPIGHI fews-adapter in your RESPIGHI invironment as well. In the command prompt with activated environment you can install it by:
@@ -42,7 +42,7 @@ It is recommended to install the RESPIGHI fews-adapter in your RESPIGHI invironm
 
 If you open python in your RESPIGHI environment you will be able to import RESPIGHI-fews now:
 
-*import RESPIGHIfews*
+*import respighifews*
 
 If preferred the adapter-script can be included in the FEWS moduleDataSet or any other location as long as you include both adapter.py and untilities.py in the same folder.
 
