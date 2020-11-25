@@ -3,7 +3,7 @@
 This is the RESPIGHI adapter for FEWS. This adapter is created by D2Hydro (Daniel Tollenaar) for water authority Hoogheemraadschap De Stichtse Rijnlanden (HDSR, ordered by Joost Heijkers). The adapter makes RESPIGHI generally 
 applicable for donwscaling MODFLOW phreatic groundwater heads as part of a FEWS workflow.
 
-RESPIGHI is developped by Deltares (Huite Bootsma) and Advies voor Water (Jacco Hoogewoud): https://gitlab.com/deltares/imod/RESPIGHI.git. Rescaling Surface Water and PhreatIc Groundwater Head Interaction
+RESPIGHI is developed by Deltares (Huite Bootsma) and Advies voor Water (Jacco Hoogewoud): https://gitlab.com/deltares/imod/RESPIGHI.git. Rescaling Surface Water and PhreatIc Groundwater Head Interaction
 (RESPIGHI) is an open source Python package for rescaling the results of regional iMODFLOW groundwater models to finer resolutions, using surface water data.
 
 ## Installation
@@ -13,7 +13,7 @@ Make sure you have an Miniconda or Anaconda installation. You can download these
  - https://www.anaconda.com/products/individual
  - https://docs.conda.io/en/latest/miniconda.html
 
-During installation, tick the box “Add Anaconda to PATH”, ignore the red remarks
+During installation, tick the box "Add Anaconda to PATH", ignore the red remarks
 
 ### Create a RESPIGHI environment
 Use the environment.yml in the repository to create the proper python environment for RESPIGHI in command prompt
