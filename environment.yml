@@ -1,0 +1,42 @@
+name: respighi
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - affine
+  - black
+  - bottleneck
+  - cftime>=1
+  - cytoolz
+  - dask
+  - git
+  - geopandas
+  - flopy
+  - imod
+  - jinja2
+  - joblib
+  - lxml
+  - matplotlib
+  - nbstripout
+  - numba>=0.50
+  - numpy
+  - pandas
+  - pytest
+  - pytest-benchmark
+  - pytest-cov
+  - python>=3.6
+  - pyvista
+  - rasterio>=1.0
+  - scipy
+  - setuptools_scm
+  - sphinx
+  - sphinx_rtd_theme
+  - spyder
+  - toolz
+  - tqdm
+  - twine
+  - vtk
+  - xarray>=0.15
+  - zarr

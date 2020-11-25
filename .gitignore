@@ -1,2 +1,9 @@
 
 examples/vidente/vidente.lnk
+examples/vidente/chache/*
+examples/vidente/localDataStore/*
+examples/vidente/log.txt
+examples/vidente/patch.jar
+examples/vidente/running
+examples/vidente/temp/*
+examples/vidente/user_settings.ini
