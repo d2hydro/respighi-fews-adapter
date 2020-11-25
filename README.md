@@ -1,6 +1,6 @@
 # RESPIGHI-fews-adapter
 
-This is the RESPIGHI adapter for FEWS. This adapter is created by D2Hydro (Daniel Tollenaar) for water authority Hoogheemraadschap De Stichtse Rijnlanden (HDSR). The adapter makes RESPIGHI generally 
+This is the RESPIGHI adapter for FEWS. This adapter is created by D2Hydro (Daniel Tollenaar) for water authority Hoogheemraadschap De Stichtse Rijnlanden (HDSR, ordered by Joost Heijkers). The adapter makes RESPIGHI generally 
 applicable for donwscaling MODFLOW phreatic groundwater heads as part of a FEWS workflow.
 
 RESPIGHI is developped by Deltares (Huite Bootsma) and Advies voor Water (Jacco Hoogewoud): https://gitlab.com/deltares/imod/RESPIGHI.git. Rescaling Surface Water and PhreatIc Groundwater Head Interaction
