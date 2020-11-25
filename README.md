@@ -20,8 +20,8 @@ After installation you can activate your environment in command prompt
 ## install respighi
 In the activated environment you will clone the respighi repository and install it in the environment by executing the following three commands in command prompt
 
-*git clone https://gitlab.com/deltares/imod/respighi.git*
-*cd respighi*
+*git clone https://gitlab.com/deltares/imod/respighi.git*<br>
+*cd respighi*<br>
 *pip install .*
 
 If you open python in your respighi environment you will be able to import respighi
