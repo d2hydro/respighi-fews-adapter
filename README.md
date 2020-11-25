@@ -13,7 +13,7 @@ Make sure you have an Miniconda or Anaconda installation. You can download these
  - https://www.anaconda.com/products/individual
  - https://docs.conda.io/en/latest/miniconda.html
 
-During installation, tick the box “Add Anaconda to PATH”, even though it is not advised
+During installation, tick the box “Add Anaconda to PATH”, ignore the red remarks
 
 ### Create a RESPIGHI environment
 Use the environment.yml in the repository to create the proper python environment for RESPIGHI in command prompt
