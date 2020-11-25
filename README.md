@@ -48,7 +48,7 @@ If preferred the adapter-script can be included in the FEWS moduleDataSet or any
 
 ## Run an example
 You can test RESPIGHIfews with the example fews-config in examples\vidente
-1. Make sure you get a copy of FEWS: https://oss.deltares.nl/web/delft-fews
+1. Get a copy of FEWS: https://oss.deltares.nl/web/delft-fews
 2. Create a FEWS shortcut via the FEWS bin-folder: bin\windows\createShortcuts.exe
 3. Put the FEWS-patch in examples\vidente\patch.jar
 4. Update the path to your newly created RESPIGHI python environment in sa_global.properties. Assuming you have an anaconda installation on the C-drive that would be:
